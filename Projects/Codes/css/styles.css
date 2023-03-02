@@ -1,0 +1,115 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap"); */
+
+.al {
+  text-decoration: none;
+}
+/* .decal {
+  text-decoration: underline #0a9396;
+} */
+img {
+  width: 100px;
+  border-radius: 50px;
+  height: 150px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.img {
+  width: 100px;
+  border-radius: 50px;
+  height: 150px;
+  float: left;
+  margin-right: 20px;
+  /* object-fit: cover; */
+}
+
+.heading {
+  color: blue;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.loc {
+  font-style: italic;
+  font-weight: normal;
+  color: #e76f51;
+}
+.loc0 {
+  font-style: normal;
+  font-weight: bold;
+  color: orangered;
+}
+.loc1 {
+  font-style: italic;
+  font-weight: bold;
+  color: blue;
+}
+.loc2 {
+  font-style: italic;
+  font-weight: bold;
+  color: red;
+}
+.loc3 {
+  font-style: italic;
+  font-weight: bold;
+  color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+.loc11 {
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+.loc12 {
+  font-style: italic;
+  font-weight: bold;
+  color: #e76f51;
+}
+button {
+  background-color: black;
+  color: white;
+}
+.notice {
+  font-size: small;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+}
+.loc20 {
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+#infoh {
+  background-color: lightgray;
+  width: 285px;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 2px 5px 5px 10px;
+}
+#infol {
+  width: 12%;
+  border-radius: 5px;
+}
+
+#indexh {
+  background-color: lightgray;
+  width: 285px;
+  border-radius: 5px;
+}
+
+
+#indt1,
+th,
+td {
+  border: 2px solid black;
+}
