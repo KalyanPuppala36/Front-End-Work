@@ -1,0 +1,18 @@
+.logo {
+  height: 180px;
+  object-fit: cover;
+}
+
+.pro-det {
+  width: 100%;
+}
+
+.tab {
+  border: 2px solid black;
+  border-spacing: 25px;
+}
+
+.pro-gray {
+  width: 100%;
+  color: gray;
+}
