@@ -1,0 +1,116 @@
+div {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(to left, #3c2, #1ab);
+  margin: 10px;
+}
+
+span {
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+}
+.a1:hover,
+.a2:hover,
+.a3:hover,
+.a4:hover {
+  transform: translate3d(25px, 35px, 45px);
+}
+
+.a1 {
+  transition: all 2s;
+  transition-timing-function: all 2s linear;
+}
+
+.a2 {
+  transition: all 2s;
+  transition-timing-function: all 2s ease-in;
+}
+
+.a3 {
+  transition: all 2s;
+  transition-timing-function: all 2s ease-out;
+}
+
+.a4 {
+  transition: all 2s;
+  transition-timing-function: all 2s ease-in-out;
+}
+
+.simpleTransition {
+  background: #1ab;
+  color: greenyellow;
+  transition: all 2s;
+}
+
+.simpleTransition:hover {
+  background: #3c2;
+  color: white;
+  transform: translate3d(25px, 35px, 45px);
+}
+
+.simpleAnimation {
+  margin-top: 40px;
+  background: #3c2;
+  color: blueviolet;
+  animation: move 10s infinite;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  16% {
+    opacity: 0.5;
+    background: #1ab;
+    color: greenyellow;
+    transform: translate3d(12.5px, 17.5, 22.5px);
+  }
+  33% {
+    opacity: 1;
+    background: #3c2;
+    color: blueviolet;
+    width: 75px;
+    height: 75px;
+    transform: translate3d(25px, 35px, 45px);
+  }
+  50% {
+    opacity: 0.5;
+    background: #1ab;
+    color: greenyellow;
+    transform: translate3d(12.5px, 35px, 67.5px);
+  }
+  66% {
+    opacity: 1;
+    background: #3c2;
+    color: blueviolet;
+    transform: translateX(0px);
+  }
+  75% {
+    background: red;
+    opacity: 1;
+  }
+  77% {
+    background: red;
+    opacity: 0;
+  }
+  79% {
+    background: red;
+    opacity: 1;
+  }
+  81% {
+    background: red;
+    opacity: 0;
+  }
+  90% {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#1ab, #3c2);
+    color: greenyellow;
+  }
+  100% {
+    width: 75px;
+    height: 75px;
+    background: linear-gradient(#3c2, #1ab);
+  }
+}
